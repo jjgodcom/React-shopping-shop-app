@@ -142,7 +142,7 @@ export default function Prototypes() {
           const {id, thumbnail, title, price, desc, pieUrl} = prototype;
           return (
             <div className="prototype" key={id}>
-              <a href={pieUrl} target="_blank" rel="northeast">
+              <a href={pieUrl} target="_blank" rel="noreferrer">
                 <div 
                   style={{
                     padding:"25px 0 33px 0"

@@ -158,10 +158,12 @@ const AppStateProvider = ({children}) => {
     })
   }, []);
   const remove = useCallback((id) => {
-
+    setOrders(orders => {
+      return orders.filter(order => order.id !== id);
+    })
   }, []);
   const removeAll = useCallback(() => {
-
+    setOrders([]);
   }, []);
   
 

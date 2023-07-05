@@ -133,17 +133,6 @@ const AppStateProvider = ({children}) => {
         "https://prototype-shop.s3.ap-northeast-2.amazonaws.com/thumbnails/Voice_note_with_sound_wave.mp4",
       price: 90,
       pieUrl: "https://cloud.protopie.io/p/7a0d6567d2",
-    },
-    {
-      id: "pp-12더미더미",
-      title: "Voice Note",
-      artist: "Haerin Song",
-      desc: `Made by Haerin Song
-              (Soda Design)`,
-      thumbnail:
-        "https://prototype-shop.s3.ap-northeast-2.amazonaws.com/thumbnails/Voice_note_with_sound_wave.mp4",
-      price: 90,
-      pieUrl: "https://cloud.protopie.io/p/7a0d6567d2",
     }
   ]);
   const [orders, setOrders] = useState([]);

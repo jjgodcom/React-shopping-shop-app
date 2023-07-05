@@ -70,10 +70,9 @@ export default function Orders() {
               <i className='icon icon--delete'></i>
             </button>
           </div>
-          <button className='btn btn--secondary' style={{width:"100%", marginTop:10}}>Checkout</button>
+          <button className='btn btn--secondary' style={{width:"100%", marginTop:10}}>결제하기</button>
         </div>
       </div>
-      
     </aside>
   )
 }
